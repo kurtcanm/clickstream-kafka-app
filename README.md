@@ -1,7 +1,7 @@
 
 # Click-stream Event Application
 
-## Architecture Schema
+## Application Architecture Schema
 
 ![DesignSchema](/images/kafka-schema.png)
 + Click-stream producer sends records to event-topic
