@@ -231,20 +231,21 @@ w.start()
 ```
 ## Real-time Dashboard
 
-http://localhost:9021/ on browser
+http://localhost:9021/ on browser.
 
-Click-stream records
+### Click-stream records
 
 ![Event-Topic](/images/event-topic.png)
 
-İnput - Ouput data rate of click-stream records
+### İnput - Ouput data rate of click-stream records
 
 ![record-load](/images/event-topic2.png)
 
-Calculated event records
+### Calculated event records
 
 ![Unique-Event-Topic](/images/unique-event-topic.png)
-İnput - Ouput data rate of calculated records
+
+### İnput - Ouput data rate of calculated records
 
 ![record-load](/images/unique-event-topic2.png)
 
