@@ -59,20 +59,20 @@ Click-stream event
 
 ```json
 {
-"date":"2020-03-25T19:05:49UTC",  
-"productId":"4pqurkxx3oku8yj",  
-"eventName":"productview",  
-"userId":"ur0kzmbj"  
+    "date":"2020-03-25T19:05:49UTC",  
+    "productId":"4pqurkxx3oku8yj",  
+    "eventName":"productview",  
+    "userId":"ur0kzmbj"  
 }
 ```
 Unique event name
 ```json
 {
-"productview":9278,  
-"purchase":9301,  
-"addtobasket":9317,  
-"removefrombasket":9293,  
-"receiveAt":"2020-02-27T00:06:38UTC"
+    "productview":9278,  
+    "purchase":9301,  
+    "addtobasket":9317,  
+    "removefrombasket":9293,  
+    "receiveAt":"2020-02-27T00:06:38UTC"
 }
 ```
 
