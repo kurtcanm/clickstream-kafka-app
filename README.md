@@ -188,7 +188,7 @@ def run_event_consumer(consumer, producer, consumer_topic, producer_topic, event
         consumer.close()
 ```
 
-Running these producers and consumers as threads
+### Running producers and consumers as threads
 ```python
 random.seed(datetime.now())
 
@@ -229,7 +229,7 @@ t.start()
 w.start()
 
 ```
-### Real-time Dashboard
+## Real-time Dashboard
 
 http://localhost:9021/ on browser
 
