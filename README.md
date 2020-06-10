@@ -118,7 +118,8 @@ event_listener_producer = Producer(producer_conf)
 ```
 
 ### Running click-stream producer
-![Event-Topic](/images/event-topic.png)
+
+
 ```python
 def run_clickstream_producer(producer, event_names):    
     try:
@@ -142,13 +143,9 @@ def run_clickstream_producer(producer, event_names):
 ```
 
 
-![record-load](/images/event-topic2.png)
-
 
 ### Running click-stream consumer and event producer
 
-
-![Unique-Event-Topic](/images/unique-event-topic.png)
 
 ```python
 def run_event_consumer(consumer, producer, consumer_topic, producer_topic, event_dict):
@@ -191,9 +188,6 @@ def run_event_consumer(consumer, producer, consumer_topic, producer_topic, event
         consumer.close()
 ```
 
-
-![record-load](/images/unique-event-topic2.png)
-
 Running these producers and consumers as threads
 ```python
 random.seed(datetime.now())
@@ -235,8 +229,25 @@ t.start()
 w.start()
 
 ```
+### Real-time Dashboard
 
-  
+http://localhost:9021/ on browser
+
+Click-stream records
+
+![Event-Topic](/images/event-topic.png)
+
+İnput - Ouput data rate of click-stream records
+
+![record-load](/images/event-topic2.png)
+
+Calculated event records
+
+![Unique-Event-Topic](/images/unique-event-topic.png)
+İnput - Ouput data rate of calculated records
+
+![record-load](/images/unique-event-topic2.png)
+
 ## Sources
 
 + [Confluent Platform Quick Start (Local)](https://docs.confluent.io/current/quickstart/ce-quickstart.html#ce-quickstart](https://docs.confluent.io/current/quickstart/ce-quickstart.html#ce-quickstart))
